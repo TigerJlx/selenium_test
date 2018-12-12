@@ -4,7 +4,7 @@ from selenium import webdriver
 
 class TestClass(unittest.TestCase):
     def setUp(self):
-        print(666)
+        print(999)
         self.driver = webdriver.Chrome()
         self.base_url = "http://www.baidu.com"
 
