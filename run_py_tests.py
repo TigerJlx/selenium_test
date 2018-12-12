@@ -20,7 +20,7 @@ class TestClass(unittest.TestCase):
 
     def test_case2(self):
         self.driver.get(self.base_url)
-        self.driver.find_element(By.ID, "email").send_keys("xxxx")
+        self.driver.find_element(By.ID, "email").send_keys("qqqqqqqq")
         self.driver.find_element(By.ID, "password").send_keys("666")
         time.sleep(2)
         self.driver.find_element(By.ID, "submit").click()
