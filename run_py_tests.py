@@ -8,7 +8,7 @@ class TestClass(unittest.TestCase):
         self.base_url = "http://www.baidu.com"
 
     def tearDown(self):
-        time.sleep(5)
+        time.sleep(6)
         self.driver.quit()
 
     def test_case(self):
